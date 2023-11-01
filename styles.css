@@ -1,0 +1,40 @@
+
+
+h2 {
+    color: white;
+    background-color: blue;
+    font-family: "Florida-Bold"; 
+    font-size: 60px;
+    text-shadow:
+    -1px -1px 0 #F24C3D, /* Top-left border */
+    3px -1px 0 #F24C3D, /* Top-right border */
+    -1px 1px 0 #F24C3D, /* Bottom-left border */
+    1px 1px 0 #F24C3D; /* Bottom-right border */
+
+}
+
+#main-title {
+    font-family: 'Cairo Play', sans-serif;
+    font-size: 60px;
+    padding-left: 100px;
+    letter-spacing: -3px;
+    text-align: center;
+}
+
+#opening-paragraph {
+  text-align: center;
+  font-size: 30px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #F6F1F1;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: center;
+}

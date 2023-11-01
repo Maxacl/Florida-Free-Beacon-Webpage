@@ -1,0 +1,121 @@
+<!-- Extra Thoughts. Make multiple small tables of 2x2. Each <th> (table header) is a region within central florida. In each table, will be news relating to that region -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      h1 {
+        text-align: center;
+        font-size: 40px;
+      }
+      p {
+        text-align: center;
+        font-size: 20px;
+      }
+      th {
+        text-align: center;
+      }
+    </style>
+    <title>Florida Beacon</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>The Florida Beacon</h1>
+      <p>Your tagline or a brief description of your business goes here.</p>
+    </section>
+
+    <section class="about">
+      <h2>About Us</h2>
+      <p>Information about your business and what makes it unique.</p>
+    </section>
+
+    <section class="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Service 1</li>
+        <li>Service 2</li>
+        <li>Service 3</li>
+      </ul>
+    </section>
+
+    <section class="news table 1">
+      <table border="1">
+        <!-- TABLE ROW -->
+        <tr>
+          <th>Orlando</th>
+        </tr>
+
+        <tr>
+          <!-- TABLE DATA -->
+          <td>
+            <a
+              href="https://www.fox4now.com/news/state/gov-ron-desantis-issues-order-to-help-evacuate-floridians-from-israel-as-conflict-rages"
+              >Link to News Story 1</a
+            >
+          </td>
+
+          <td><a href="https://example.com">Link to News Story 2</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://example.com">Link to News Story 3</a></td>
+          <td><a href="https://example.com">Link to News Story 4</a></td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <style>
+            table {
+              width: 100%;
+              border-collapse: collapse;
+            }
+
+            td {
+              padding: 10px;
+              border: 1px solid #ccc;
+              text-align: center;
+            }
+
+            td:nth-child(odd) {
+              background-color: #f2f2f2;
+            }
+          </style>
+        </head>
+        <body>
+          <table>
+            <tr>
+              <td>Row 1, Cell 1</td>
+              <td>Row 1, Cell 2</td>
+            </tr>
+            <tr>
+              <td>Row 2, Cell 1</td>
+              <td>Row 2, Cell 2</td>
+            </tr>
+          </table>
+        </body>
+      </html>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <p>Contact information, including email and phone number.</p>
+    </section>
+  </body>
+</html>
